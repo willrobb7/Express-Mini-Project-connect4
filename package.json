@@ -1,0 +1,19 @@
+{
+  "name": "express-minip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willrobb7/Express-Mini-Project-connect4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willrobb7/Express-Mini-Project-connect4/issues"
+  },
+  "homepage": "https://github.com/willrobb7/Express-Mini-Project-connect4#readme"
+}

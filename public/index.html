@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title" id="title">
+        <!-- <h1>Connect 4</h1> -->
+    </div>
+
+    <div class="buttonsAndGrid" id="buttonsAndGrid">
+        
+        <div id="grid">
+            
+            <div class="column" id="column-0">
+                
+                
+                    <div class="row" id="column-0-row-0"></div>
+                    <div class="row" id="column-0-row-1"></div>
+                    <div class="row" id="column-0-row-2"></div>
+                    <div class="row" id="column-0-row-3"></div>
+                    <div class="row" id="column-0-row-4"></div>
+                    <div class="row" id="column-0-row-5"></div>
+                
+                <button class="columnButtons" id="column-0-button" value="0" onclick="fetchRequest(htmlBoard,0)">Column 0</button>  
+            </div>
+
+            <div class="column" id="column-1">
+
+                
+                <div class="row" id="column-1-row-0"></div>
+                <div class="row" id="column-1-row-1"></div>
+                <div class="row" id="column-1-row-2"></div>
+                <div class="row" id="column-1-row-3"></div>
+                <div class="row" id="column-1-row-4"></div>
+                <div class="row" id="column-1-row-5"></div>
+                
+                <button class="columnButtons"  id="column-1-button" value="1" onclick="fetchRequest(htmlBoard,1)">Column 1</button>  
+            </div>
+
+            <div class="column" id="column-2">
+
+                
+                <div class="row" id="column-2-row-0"></div>
+                <div class="row" id="column-2-row-1"></div>
+                <div class="row" id="column-2-row-2"></div>
+                <div class="row" id="column-2-row-3"></div>
+                <div class="row" id="column-2-row-4"></div>
+                <div class="row" id="column-2-row-5"></div>
+                
+                <button class="columnButtons"  id="column-2-button" value="2" onclick="fetchRequest(htmlBoard,2)">Column 2</button>  
+            </div>
+
+            <div class="column" id="column-3">
+
+                
+                <div class="row" id="column-3-row-0"></div>
+                <div class="row" id="column-3-row-1"></div>
+                <div class="row" id="column-3-row-2"></div>
+                <div class="row" id="column-3-row-3"></div>
+                <div class="row" id="column-3-row-4"></div>
+                <div class="row" id="column-3-row-5"></div>
+                
+                <button class="columnButtons"  id="column-3-button" value="3" onclick="fetchRequest(htmlBoard,3)">Column 3</button>  
+            </div>
+
+            <div class="column" id="column-4">
+
+                
+                <div class="row" id="column-4-row-0"></div>
+                <div class="row" id="column-4-row-1"></div>
+                <div class="row" id="column-4-row-2"></div>
+                <div class="row" id="column-4-row-3"></div>
+                <div class="row" id="column-4-row-4"></div>
+                <div class="row" id="column-4-row-5"></div>
+                
+                <button class="columnButtons"  id="column-4-button" value="4" onclick="fetchRequest(htmlBoard,4)">Column 4</button>  
+            </div>
+
+            <div class="column" id="column-5">
+
+                
+                <div class="row" id="column-5-row-0"></div>
+                <div class="row" id="column-5-row-1"></div>
+                <div class="row" id="column-5-row-2"></div>
+                <div class="row" id="column-5-row-3"></div>
+                <div class="row" id="column-5-row-4"></div>
+                <div class="row" id="column-5-row-5"></div>
+                
+                <button class="columnButtons" id="column-5-button" value="5" onclick="fetchRequest(htmlBoard,5)">Column 5</button>  
+            </div>
+
+            <div class="column" id="column-6">
+
+                
+                <div class="row" id="column-6-row-0"></div>
+                <div class="row" id="column-6-row-1"></div>
+                <div class="row" id="column-6-row-2"></div>
+                <div class="row" id="column-6-row-3"></div>
+                <div class="row" id="column-6-row-4"></div>
+                <div class="row" id="column-6-row-5"></div>
+                
+                <button class="columnButtons" id="column-6-button" value="6" onclick="fetchRequest(htmlBoard,6)">Column 6</button>  
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="pureFunctions.js" type="text/javascript"></script> -->
+    <script src="main.js" type="text/javascript"></script>
+
+</body>
+</html>
